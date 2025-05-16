@@ -1,0 +1,47 @@
+.hero-section {
+  position: relative;
+  min-height: 600px;
+  color: #fff;
+
+  .hero-bg {
+    transition: opacity 1s ease-in-out;
+  }
+
+  &.dark {
+    background-color: #0f172a;
+    .text-white {
+      color: #e0e7ff;
+    }
+  }
+}
+
+/* أنيميشن الدخول */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 1s ease forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 1s ease forwards;
+}
