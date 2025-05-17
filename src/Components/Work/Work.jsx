@@ -13,14 +13,11 @@ const Work = () => {
 
   return (
     <section
-     style={{
-    background: "linear-gradient(135deg, #3b82f6 0%, #60a5fa 50%, #9ca3af 100%)",
-  }}
       className={`py-20 px-6 transition-colors duration-300 ${
-        darkMode
-          ? "bg-gradient-to-b from-gray-900 to-gray-800"
-          : "bg-gradient-to-b from-blue-50 to-white"
-      }`}
+    darkMode
+      ? "bg-gradient-to-b from-gray-900 to-gray-800"
+      : "bg-gradient-to-b from-[#9ca3af] via-[#60a5fa] to-[#3b82f6]"
+  }`}
     >
       <div className="container mx-auto max-w-6xl">
         {/* Header Section */}

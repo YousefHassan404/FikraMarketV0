@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Button({ type = "button", onClick, children, disabled = false }) {
   return (
-    <button
+    <button 
       type={type}
       onClick={onClick}
       className="custom-button"

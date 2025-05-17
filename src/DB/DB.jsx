@@ -1,0 +1,65 @@
+
+ const ideas = [
+  {
+    id: 1,
+    name: "فكرة تطبيق توصيل",
+    price: "2000$",
+    rating: 4.5,
+    category: "تكنولوجيا",
+    date: "2025-05-10",
+    description: "تطبيق ذكي لتوصيل الطلبات باستخدام الذكاء الاصطناعي لتحديد أفضل الطرق وأسرعها بناءً على حركة المرور والطلبات الأخرى في المنطقة.",
+    image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    qrCode: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/idea1",
+  },
+  {
+    id: 2,
+    name: "متجر إلكتروني للمنتجات المحلية",
+    price: "1500$",
+    rating: 4.2,
+    category: "تجارة إلكترونية",
+    date: "2025-05-12",
+    description: "منصة متكاملة لدعم المنتجين المحليين وبيع منتجاتهم بسهولة مع نظام توصيل محلي وتقييمات للبائعين.",
+    image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    qrCode: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/idea2",
+  },
+  {
+    id: 3,
+    name: "نظام حجز مواعيد للأطباء",
+    price: "1800$",
+    rating: 4.8,
+    category: "صحة",
+    date: "2025-05-08",
+    description: "نظام إلكتروني متكامل لإدارة حجوزات العيادات مع إشعارات للمرضى وإمكانية الدفع الإلكتروني.",
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    qrCode: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/idea3",
+  },
+  {
+    id: 4,
+    name: "منصة تعليمية للأطفال",
+    price: "2200$",
+    rating: 4.9,
+    category: "تعليم",
+    date: "2025-05-05",
+    description: "منصة تفاعلية لتعليم الأطفال بطرق مبتكرة باستخدام الألعاب التعليمية والرسوم المتحركة الجذابة.",
+    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    qrCode: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/idea4",
+  },
+  {
+    id: 5,
+    name: "خدمة اشتراك في الكتب الورقية",
+    price: "1000$",
+    rating: 4.3,
+    category: "ثقافة",
+    date: "2025-05-06",
+    description: "خدمة توصيل كتب ورقية شهرية لعشاق القراءة مع إمكانية اختيار التخصصات الأدبية المفضلة.",
+    image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    qrCode: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/idea5",
+  },
+  {
+    id: 6,
+    name: "المزيد من الأفكار",
+  },
+];
+
+
+export default ideas;
