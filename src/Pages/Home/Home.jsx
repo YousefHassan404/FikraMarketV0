@@ -4,7 +4,7 @@ import Hero from '../../Components/Hero/Hero'
 import Footer from '../../Components/Footer/Footer'
 import Work from '../../Components/Work/Work'
 import LatestIdeasSection from '../../Components/Ideas/Ideas'
-import FikraEdge from '../../Components/FikraEdge/FikraEdge'
+import FikraEdge from '../../Components/FikraSteps/FikraSteps'
 export default function Home() {
   return (
     <>

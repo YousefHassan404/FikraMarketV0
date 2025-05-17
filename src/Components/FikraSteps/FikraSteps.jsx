@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ModeContext } from '../../Utils/Context/ModeContext';
 
-const FikraEdge = () => {
+const FikraSteps = () => {
   const { mode } = useContext(ModeContext);
 
   return (
@@ -15,7 +15,7 @@ const FikraEdge = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-right">
             <h3 className={`text-xl font-semibold ${mode ? 'text-blue-300' : 'text-blue-600'} mb-8`}>
-              خطوات الاستثمار عبر FikraEdge
+              خطوات الاستثمار عبر فكرة ماركت
             </h3>
 
             <div className="relative border-r-2 border-gray-300 pr-4">
@@ -83,4 +83,4 @@ const FikraEdge = () => {
   );
 };
 
-export default FikraEdge;
+export default FikraSteps;
