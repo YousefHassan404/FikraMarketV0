@@ -5,8 +5,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import './Styles/index.scss'
 import ModeContextProvider from './Utils/Context/ModeContext';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 
 const router = createBrowserRouter([
+  { path: "/login", element: <Login /> },
+  { path: "/register", element: <Register /> },
   { path: "/", element: <Home /> },
 ])
 

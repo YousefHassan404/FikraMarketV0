@@ -35,11 +35,11 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav dir="rtl" className="hidden md:flex space-x-6 rtl:space-x-reverse text-sm items-center">
           <Link to="/" className="hover:text-blue-600 transition-all font-medium text-lg">الرئيسية</Link>
-          <Link to="/buy" className="hover:text-blue-600 transition-all font-medium text-lg">استعراض الافكار</Link>
-          <Link to="/rent" className="hover:text-blue-600 transition-all font-medium text-lg">الاشتراكات</Link>
-          <Link to="/commercial" className="hover:text-blue-600 transition-all font-medium text-lg">كيف يعمل</Link>
-          <Link to="/add-idea" className="hover:text-blue-600 transition-all font-medium text-lg">أضف فكرتك</Link>
-          <Link to="/chat" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
+          <Link to="#" className="hover:text-blue-600 transition-all font-medium text-lg">استعراض الافكار</Link>
+          <Link to="#" className="hover:text-blue-600 transition-all font-medium text-lg">الاشتراكات</Link>
+          <Link to="#" className="hover:text-blue-600 transition-all font-medium text-lg">كيف يعمل</Link>
+          <Link to="#" className="hover:text-blue-600 transition-all font-medium text-lg">أضف فكرتك</Link>
+          <Link to="#" className="flex items-center gap-1 hover:text-blue-600 transition-colors">
             <MessageCircle size={20} /> الدردشة
           </Link>
           <button onClick={switchLanguage} className="hover:text-blue-600 transition-colors flex items-center gap-1">
@@ -65,11 +65,11 @@ const Header = () => {
       {menuOpen && (
         <div className={`md:hidden px-6 py-4 space-y-4 shadow-lg text-right border-t ${darkMode ? 'bg-gray-800 text-white border-gray-600' : 'bg-white/95 text-black border-gray-100'}`}>
           <Link to="/" className="block hover:text-blue-600 transition-all font-medium text-lg">الرئيسية</Link>
-          <Link to="/buy" className="block hover:text-blue-600 transition-all font-medium text-lg">استعراض الافكار</Link>
-          <Link to="/rent" className="block hover:text-blue-600 transition-all font-medium text-lg">الاشتراكات</Link>
-          <Link to="/commercial" className="block hover:text-blue-600 transition-all font-medium text-lg">كيف يعمل</Link>
-          <Link to="/add-idea" className="block hover:text-blue-600 transition-all font-medium text-lg">أضف فكرتك</Link>
-          <Link to="/chat" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
+          <Link to="#" className="block hover:text-blue-600 transition-all font-medium text-lg">استعراض الافكار</Link>
+          <Link to="#" className="block hover:text-blue-600 transition-all font-medium text-lg">الاشتراكات</Link>
+          <Link to="#" className="block hover:text-blue-600 transition-all font-medium text-lg">كيف يعمل</Link>
+          <Link to="#" className="block hover:text-blue-600 transition-all font-medium text-lg">أضف فكرتك</Link>
+          <Link to="#" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
             <MessageCircle size={20} /> <span>الدردشة</span>
           </Link>
           <button onClick={switchLanguage} className="flex items-center gap-2 hover:text-blue-600 transition-colors">
